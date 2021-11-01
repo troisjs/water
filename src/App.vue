@@ -10,18 +10,17 @@
         <!-- <SpotLight
           color="#ffffff"
           :intensity="1"
-          :position="{ x: 0, y: 0, z: 15 }"
+          :position="{ z: 15 }"
           :angle="Math.PI / 5"
           :penumbra="1"
         /> -->
         <LiquidPlane ref="liquid"
-          :rotation="{ x: 0 }"
           :width="WIDTH" :height="HEIGHT"
           :material-props="materialProps"
         />
 
         <PlaneC
-          :position="{ x:0, y: 0, z: -2 }"
+          :position="{ z: -2 }"
           :width="WIDTH" :height="HEIGHT"
         >
           <BasicMaterial>
