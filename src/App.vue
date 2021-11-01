@@ -26,7 +26,7 @@
         >
           <BasicMaterial>
             <Texture
-              src="/assets/tiles/Tiles107_1K_Color.jpg"
+              src="/water/assets/tiles/Tiles107_1K_Color.jpg"
               :props="{ repeat: { x: 1.5, y: 1.5 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -35,7 +35,7 @@
         <!-- <Box :width="WIDTH" :height="HEIGHT" :depth="0.2" :position="{ x: 0, y: 0, z: -2.4 }">
           <BasicMaterial>
             <Texture
-              src="/assets/tiles/Tiles107_1K_Color.jpg"
+              src="/water/assets/tiles/Tiles107_1K_Color.jpg"
               :props="{ repeat: { x: 1, y: 1 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -44,7 +44,7 @@
         <!-- <Box :width="WIDTH" :height="0.2" :depth="3" :position="{ x: 0, y: HEIGHT / 2 + 0.1, z: -1 }">
           <BasicMaterial>
             <Texture
-              src="/assets/wood/Wood048_1K_Color.jpg"
+              src="/water/assets/wood/Wood048_1K_Color.jpg"
               :props="{ repeat: { x: 2, y: 0.5 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -52,7 +52,7 @@
         <Box :width="WIDTH" :height="0.2" :depth="3" :position="{ x: 0, y: -HEIGHT / 2 - 0.1, z: -1 }">
           <BasicMaterial>
             <Texture
-              src="/assets/wood/Wood048_1K_Color.jpg"
+              src="/water/assets/wood/Wood048_1K_Color.jpg"
               :props="{ repeat: { x: 2, y: 0.5 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -61,7 +61,7 @@
         <Box :width="0.2" :height="HEIGHT + 0.4" :depth="3" :position="{ x: WIDTH / 2 + 0.1, y: 0, z: -1 }">
           <BasicMaterial>
             <Texture
-              src="/assets/wood/Wood048_1K_Color.jpg"
+              src="/water/assets/wood/Wood048_1K_Color.jpg"
               :props="{ repeat: { x: 0.5, y: 2 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -69,7 +69,7 @@
         <Box :width="0.2" :height="HEIGHT + 0.4" :depth="3" :position="{ x: -WIDTH / 2 - 0.1, y: 0, z: -1 }">
           <BasicMaterial>
             <Texture
-              src="/assets/wood/Wood048_1K_Color.jpg"
+              src="/water/assets/wood/Wood048_1K_Color.jpg"
               :props="{ repeat: { x: 0.5, y: 2 }, wrapS: RepeatWrapping, wrapT: RepeatWrapping }"
             />
           </BasicMaterial>
@@ -129,6 +129,7 @@ export default {
     return {
       WIDTH: 20,
       HEIGHT: 20,
+      RepeatWrapping: RepeatWrapping,
       cubeTexture
     }
   },
